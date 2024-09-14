@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'custom';
+  src: url('./font/HelveticaNeueBold.otf');
+}
+@font-face {
+  font-family: 'custom1';
+  src: url('./font/HelveticaNeueHeavy.otf');
+}
+@font-face {
+  font-family: 'custom3';
+  src: url('./font/fonnts.com-Ivy-Presto-Headline-Light.otf');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection{ 
+  background-color:#362F24;
+}
+
+
+
+
